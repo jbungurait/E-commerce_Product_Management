@@ -22,7 +22,7 @@ router.get('/:id', async (req, res) => {
   // find a single product by its `id`
   // be sure to include its associated Category and Tag data
   try {
-    const product = await Product.findbyPk(req.params.id, {
+    const product = await Product.findByPk(req.params.id, {
       include: [{ model: Category }, { model: Tag }]
     });
     res.status(200).json(product);
@@ -68,7 +68,7 @@ router.put('/:id', (req, res) => {
   // update product data
   Product.update(req.body, {
     where: {
-      id: req.params.id,
+      product_id: req.params.id,
     },
   })
     .then((product) => {
