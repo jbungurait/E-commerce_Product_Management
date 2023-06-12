@@ -1,4 +1,5 @@
 # E-commerce_Product_Management
+A database designed to track products by item, category and tag. 
 
 ## User Story
 
@@ -38,7 +39,7 @@ THEN I am able to successfully create, update, and delete data in my database
 ```
 
 ## Uses
-This App is designed to manage 
+This App is designed to manage E-Commerce Products in a database. 
 
 ## Install
 ```md
@@ -89,3 +90,16 @@ To remove an item do a 'DELETE' request to the specfic ID route.
 
 ```
 
+## Video 
+[Video]()
+
+
+
+## Credits
+* [MySQL](https://www.mysql.com/)
+* [Sequelize](https://sequelize.org/)
+* [Express](https://www.npmjs.com/package/express)
+
+## Creator
+Josh Ungurait
+[GitHub](https://github.com/jbungurait/Babylon_Social)
