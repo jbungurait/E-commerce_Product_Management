@@ -91,7 +91,7 @@ To remove an item do a 'DELETE' request to the specfic ID route.
 ```
 
 ## Video 
-[Video]()
+[Video](https://drive.google.com/file/d/17XWOi1PF2Uk3FIMfe0GDofXvBNastzbM/view)
 
 
 
